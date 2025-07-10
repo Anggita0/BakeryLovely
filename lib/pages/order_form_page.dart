@@ -38,7 +38,7 @@ class _OrderFormPageState extends State<OrderFormPage> {
       );
 
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text("Pesanan berhasil dikirim!")),
+        const SnackBar(content: Text("Produk berhasil dipesan!")),
       );
       Navigator.pop(context);
     } catch (e) {

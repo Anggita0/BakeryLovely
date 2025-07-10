@@ -35,7 +35,7 @@ class _ProductListUserPageState extends State<ProductListUserPage> {
       appBar: AppBar(
         automaticallyImplyLeading: false, // Hilangkan panah back
         centerTitle: true,
-        title: const Text("BakeryLovely"),
+        title: const Text("Bakery Lovely"),
         actions: [
           IconButton(
             icon: const Icon(Icons.shopping_cart),

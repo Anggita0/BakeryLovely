@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/splash_screen.dart';
 import 'package:flutter_application_1/themes/theme.dart';
 import 'package:flutter_application_1/pages/user_home_page.dart';
 import 'location_service.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       title: 'Aplikasi Roti',
       debugShowCheckedModeBanner: false,
       theme: pinkTheme,
-      home: const UserHomePage(),
+      home: const SplashScreen(),
     );
   }
 }

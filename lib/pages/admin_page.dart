@@ -34,7 +34,7 @@ class _AdminPageState extends State<AdminPage> {
 
   // Tab Produk (pakai ProductListPage langsung)
   Widget _buildProductTab() {
-    return const ProductListPage(isInTab: true); // ✅ Gunakan halaman produk
+    return const ProductListPage(isInTab: true);
   }
 
   // Tab Pesanan
@@ -97,7 +97,7 @@ class _AdminPageState extends State<AdminPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('LovelyBakery Admin'),
+        title: const Text('Bakery Lovely Admin'),
         automaticallyImplyLeading: false,
         centerTitle: true,
       ),
